@@ -197,5 +197,14 @@ p {
         transform: rotate(0);
     }
 
+}
+
+@media (max-width : 768px) {
+    .title-img {
+        height: 120%;
+        width:  120%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+    }
 
 }
