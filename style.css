@@ -133,25 +133,23 @@ color: #fff;
 }
 
 /* TESTAMONIALS   */
-.TESTOMINOLES-HEADING h1{
-	color: rgb(0, 0, 0);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    width: 1130px;
-    margin: 30px auto;
-    text-align: center
-}
-
-.TESTOMINOLES-body {
-	
+.ROW {
+    justify-content: center;
+	align-items: center;
 	min-height: 400px;
 	width: 460px;
   height: 100px;
   overflow-y: scroll;
   scrollbar-color: rebeccapurple green;
   scrollbar-width: thin;
- 
+  margin-left: 500px;
 }
+
+
+
+
+
+
 
 .test-img {
     height: 100px;
@@ -161,43 +159,6 @@ color: #fff;
 .modal {
     justify-content: center;
 }
-/* #testimonials {
-    padding: 1% 6%;
-    text-align: center;
-    background-color: #6B728E;
-    color: #fff;
-}
-.carousel-item {
-    padding: 5% 15%;
-}
-.testimonial-img {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-#press {
-    background-color: #6B728E;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-.press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
-.testimonials-text {
-    font-size: 2.5rem;
-    line-height: 1.5;
-}
-
-.testimonials-head {
-    font-size: 2.5rem;
-} */
-
-
-/* SERVICES */
 
 .icon-services {
    color: #404258;
@@ -214,24 +175,6 @@ p {
     text-align: center;
 }
 
-/* CTA  */
-/* #cta {
-    background-color: #6B728E;
-    color: #fff;
-    padding: 7%;
-    text-align: center;
-
-
-}
-
-.cta-heading {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1.5;
-} */
-
-/* FOOTER SECTION */
 .footer {
     background-color: #404258;
     margin: 0%;
@@ -267,6 +210,9 @@ p {
     padding: 0%;
     margin: 0%;
 }
+.list-unstyled {
+    color: #fff;
+}
 
 
 @media (max-width : 1028px) {
@@ -287,6 +233,9 @@ p {
         width:  120%;
         padding-bottom: 10%;
         padding-right: 10%;
+    }
+    .ROW {
+        margin-left: 100px;
     }
 
 }
